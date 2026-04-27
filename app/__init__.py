@@ -13,7 +13,7 @@ from app.services.auth_service import seed_default_user
 def create_app():
     app = Flask(__name__)
     
-    # enable cros
+    # enable cors
     CORS(app)
 
     # create tables
